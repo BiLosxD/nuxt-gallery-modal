@@ -56,6 +56,7 @@
             },
             close () {
                 this.opened = false
+                this.toggled = false
                 document.body.classList.remove('no_scroll')
             },
             removeSlideAnim () {
